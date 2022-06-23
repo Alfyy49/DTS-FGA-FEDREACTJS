@@ -3,6 +3,7 @@ import TodoForm from './TodoForm';
 // import TodoList from './TodoList';
 import { RiCloseCircleFill } from 'react-icons/ri';
 import { RiEditBoxFill } from 'react-icons/ri';
+// import { BsFillCheckCircleFill } from 'react-icons/bs';
 
 
 function Todo({ todos, completeTodo, removeTodo, updateTodo }) {
@@ -41,6 +42,8 @@ function Todo({ todos, completeTodo, removeTodo, updateTodo }) {
                     onClick={() => setEdit({ id: todo.id, value: todo.text})}
                     className='edit-icon'
                 />
+                {/* <BsFillCheckCircleFill 
+                    onClick={() => } */}
 
             </div>
 
