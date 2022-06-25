@@ -41,7 +41,7 @@ function TodoList() {
     return (
         <div>
             <h1>What's The Plan For Today?</h1>
-            <p>Note: Click the area of index if u want to mark completedlist todo</p>
+            <p>Note: Click the area of index if u want to mark completedlist todo!</p>
             <TodoForm onSubmit={addTodo} /> 
             <Todo
                 todos={todos}
